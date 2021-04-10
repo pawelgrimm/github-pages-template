@@ -5,5 +5,9 @@
   "main": "index.js",
   "repository": "git@github.com:pawelgrimm/github-pages-template.git",
   "author": "Pawel Grimm <developer@pawelgrimm.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "prebuild": "rm -rf dist",
+    "build": "mkdir dist && cp src/pages/* dist/"
+  }
 }
