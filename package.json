@@ -8,6 +8,6 @@
   "license": "MIT",
   "scripts": {
     "prebuild": "rm -rf dist",
-    "build": "mkdir -pv \"dist/{css,assets}\" && cp src/pages/* dist/"
+    "build": "mkdir -pv dist/css dist/assets && cp src/pages/* dist/"
   }
 }
